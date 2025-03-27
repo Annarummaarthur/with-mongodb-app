@@ -14,7 +14,7 @@ export async function GET(request: Request, { params }: any): Promise<NextRespon
       return NextResponse.json({ status: 400, message: 'Invalid movie ID', error: 'ID format is incorrect' });
     }
     
-    const comments = await db.collection('comments').find({ _id: new ObjectId(idMovie) }).toArray();
+    const comments = await db.collection('num_mflix_comments').find({ _id: new ObjectId(idMovie) }).toArray();
     
     if (!comments) {
       return NextResponse.json({ status: 404, message: 'Movie not found', error: 'No movie found with the given ID' });
