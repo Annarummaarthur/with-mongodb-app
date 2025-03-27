@@ -22,6 +22,7 @@ export async function GET(request: Request, { params }: any): Promise<NextRespon
     
     return NextResponse.json({ status: 200, data: { comments } });
   } catch (error: any) {
+    console.log('erreur toi la')
     return NextResponse.json({ status: 500, message: 'Internal Server Error', error: error.message });
   }
 }
