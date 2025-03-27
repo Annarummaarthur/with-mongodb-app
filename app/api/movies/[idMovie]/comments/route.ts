@@ -1,3 +1,5 @@
+// page/api/movies/[idMovie]/comments/route.ts
+
 import { NextResponse } from 'next/server';
 import clientPromise from '@/lib/mongodb';
 import { Db, MongoClient, ObjectId } from 'mongodb';
