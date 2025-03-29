@@ -65,7 +65,6 @@ Cette API permet de gérer des films, des commentaires associés à chaque film 
 
 - **Backend :** Node.js avec Express.js
 - **Base de données :** MongoDB (NoSQL)
-- **Environnement de développement :** Docker (facultatif)
 
 ---
 
@@ -73,10 +72,10 @@ Cette API permet de gérer des films, des commentaires associés à chaque film 
 
 ### Prérequis
 
-- Node.js (version 14.x ou supérieure)
+- Node.js
 - MongoDB (soit local, soit sur MongoDB Atlas)
 - Git
-- IDE de votre choix (par exemple, VSCode)
+- IDE de votre choix (VSCode)
 
 ### Étapes d'installation
 
